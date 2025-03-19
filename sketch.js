@@ -22,7 +22,7 @@ function draw() {
       textSize(0.1*d);
       
       if (random() <= 0.5) {
-      text("A", x, y);
+      text("OK", x, y);
       }
     }
   }
