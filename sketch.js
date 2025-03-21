@@ -1,12 +1,13 @@
 function setup() {
   createCanvas(1200, 800);
   textAlign(CENTER, CENTER);
-  frameRate(10);
+  frameRate(5);
 }
 
 function draw() {
-  background(0);
+  background(240, 100, 180, 220);
   fill(255);
+  
   
   let resolution = 20;
   
@@ -21,7 +22,7 @@ function draw() {
       
       textSize(0.1*d);
       
-      if (random() <= 0.5) {
+      if (random() <= 0.7) {
       text("OK", x, y);
       }
     }
